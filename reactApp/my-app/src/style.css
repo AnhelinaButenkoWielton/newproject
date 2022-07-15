@@ -1,0 +1,165 @@
+body{
+    background-color:#ffffff;
+    margin: 0;
+}
+
+.main_container{
+    margin-left:13%;
+    padding:26px 26px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0 0 0 10px;
+    width: 13%;
+    background-color: #f7f7f7;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 4px 16px 4px 36px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 80ms ease-out 10ms;
+}
+
+li a.active {
+    background-color: #f7b629;
+    color: white;
+}
+
+li a.main_title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px 16px 8px 8px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+li a.title {
+    font-size: 16px;  
+    padding: 20px 16px 2px 16px;
+    color: rgb(0, 0, 0);
+}
+
+li a.first_title {
+    font-size: 16px;  
+    padding: 4px 16px 4px 16px;
+    color: rgb(0, 0, 0);
+}
+
+li a:hover:not(.active, .title, .main_title, .first_title) {
+    background-color: #cacaca;
+    color: white;
+}
+
+.table{
+    margin-bottom: 0px;
+}
+
+input{
+    width: 100%;
+}
+
+.table-active{
+    text-align: center;
+    border-bottom: 0;
+    --bs-table-accent-bg: #f3f3f3;
+}
+
+td{
+    vertical-align: middle;
+}
+
+.td_quest{
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.td_input{
+    width: 70%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.td_radio_button{
+    width: 17%;
+    align-items: center;
+    
+}
+
+.td_input_with_radiobutton{
+    width: 36%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.td_quest_for_transaction{
+    width: 30%;
+}
+
+.td_radio_button_for_transaction{
+    width: 17%;
+    align-items: center;
+    
+}
+
+.td_lista_do_akceptacji{
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.td_lista_do_akceptacji a{
+    text-decoration: none;
+}
+
+.td_profile{
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.form-check{
+    display: flex;
+    justify-content: center;
+}
+
+.button_to_sending{
+    display: block;
+    background-color: #cacaca;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    transition: background-color 80ms ease-out 10ms;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button_to_sending:hover {
+    background-color: #f7b629;
+    color: white;
+}
+
+.form-control{
+    font-size: 14px;
+}
+
+p{
+    margin: 0;
+}
+
+.form-select{
+    font-size: 14px;
+}

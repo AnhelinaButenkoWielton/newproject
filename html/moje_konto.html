@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="logo.png">
+    <title>System weryfikacji i akceptacji dostawców</title>
+</head>
+
+<body>
+    <ul>
+        <li><a class="main_title" href="#">Weryfikacja<img src="logo.png" alt="Girl in a jacket" width="50" height="50"></a></li>
+        <li><a class="first_title" href="#">Nawigacja</a></li>
+        <li><a href="index.html">Sprawdż dostawcę</a></li>
+        <li><a class="title" href="#">Weryfikacja</a></li>
+        <li><a href="formalna.html">Formalna</a></li>
+        <li><a href="transaction.html">Transakcyjna</a></li>
+        <li><a class="title" href="#">Status akceptacji</a></li>
+        <li><a href="w_akceptacji.html">W akceptacji</a></li>
+        <li><a href="wszystkie.html">Wszystkie</a></li>
+        <li><a class="title" href="#">Akceptacja</a></li>
+        <li><a href="do_akceptacji.html">Do akceptacji</a></li>
+        <li><a href="zaakceptowano.html">Zaakceptowano</a></li>
+        <li><a class="title" href="#">Konto</a></li>
+        <li><a class="active" href="moje_konto.html">Moje konto</a></li>
+        <li><a href="#">Wyloguj się</a></li>
+        <li><a class="title" href="#">Szybkie linki</a></li>
+        <li><a href="#">Procedura</a></li>
+        <li><a href="https://aplikacja.ceidg.gov.pl/CEIDG/CEIDG.Public.UI/Search.aspx" target="_blank">Strona CEIDG</a></li>
+        <li><a href="https://ekrs.ms.gov.pl/web/wyszukiwarka-krs/strona-glowna/index.html" target="_blank">Strona KRS</a></li>
+        <li><a href="https://www.podatki.gov.pl/wykaz-podatnikow-vat-wyszukiwarka" target="_blank">Biala lista</a></li>
+    </ul>
+    
+    <div class="main_container">    
+        <h2 class="mt-1">Twój profil</h2>
+        <table class="table table-striped mt-4">
+            <tbody>
+                <tr>
+                    <td class="td_profile">Imię i nazwisko</td>
+                    <td class="td_profile">Anhelina Butenko</td>
+                </tr>
+                <tr>
+                    <td class="td_profile">Stanowisko</td>
+                    <td class="td_profile">Praktykantka</td>
+                </tr>
+                <tr>
+                    <td class="td_profile">Telefon</td>
+                    <td class="td_profile">BRAK WPISANEGO TELEFONU</td>
+                </tr>
+                <tr>
+                    <td class="td_profile">Przełożony</td>
+                    <td class="td_profile">Rafał Strzelecki</td>
+                </tr>
+                <tr>
+                    <td class="td_profile">Domyślna osoba akceptująca</td>
+                    <td class="td_profile">Wojciech Koperski</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="mt-4 mb-2">Wskaż domyslną osobą akceptującą:</p>
+        <div class="input-group p-0 m-0">
+            <select class="form-select" id="inputGroupSelect01" required aria-label="select example">
+            <option value="">Osoba akceptująca</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            </select>
+        </div>
+        <div class="mt-4 mb-4 d-flex justify-content-center">
+            <button type="submit" class="button_to_sending">Zapisz</button>
+        </div>
+    </div>
+</body>
+</html>
